@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
         <artifactId>stacks-api-examples-archetypes</artifactId>
         <groupId>org.guillermo</groupId>
@@ -9,8 +10,7 @@
         <relativePath>../pom-stacks-archetypes.xml</relativePath>
     </parent>
 
-<!--    <groupId>org.guillermo</groupId>-->
-    <artifactId>stacks-api-example-simple</artifactId>
+    <artifactId>stacks-api-archetype-cqrs</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
@@ -19,10 +19,11 @@
     <properties>
 <!--        <maven.compiler.source>11</maven.compiler.source>-->
 <!--        <maven.compiler.target>11</maven.compiler.target>-->
-        <archetype.output.directory>stacks-api-example-simple</archetype.output.directory>
+        <archetype.output.directory>stacks-api-example-cqrs</archetype.output.directory>
     </properties>
 
     <build>
+
         <extensions>
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
@@ -31,18 +32,18 @@
             </extension>
         </extensions>
 
-<!--        <pluginManagement>-->
-<!--            <plugins>-->
-<!--                <plugin>-->
-<!--                    <groupId>org.apache.maven.plugins</groupId>-->
-<!--                    <artifactId>maven-archetype-plugin</artifactId>-->
-<!--                    <version>3.2.0</version>-->
-<!--                    <configuration>-->
-<!--                        <outputDirectory>../../archetypes/${archetype.output.directory}</outputDirectory>-->
-<!--                    </configuration>-->
-<!--                </plugin>-->
-<!--            </plugins>-->
-<!--        </pluginManagement>-->
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.2.0</version>
+                    <configuration>
+                        <outputDirectory>../../archetypes/stacks-api-example-cqrs</outputDirectory>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
 </project>
