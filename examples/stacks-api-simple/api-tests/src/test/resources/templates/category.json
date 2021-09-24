@@ -1,0 +1,4 @@
+{
+  "name": "<#if name??>stacks-api-example-simple<#else></#if>",
+  "description": "<#if description??>${description}<#else></#if>"
+}
