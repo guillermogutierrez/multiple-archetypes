@@ -9,7 +9,6 @@
         <relativePath>../pom-stacks-archetypes.xml</relativePath>
     </parent>
 
-<!--    <groupId>org.guillermo</groupId>-->
     <artifactId>stacks-api-example-simple</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
@@ -17,8 +16,6 @@
     <packaging>maven-archetype</packaging>
 
     <properties>
-<!--        <maven.compiler.source>11</maven.compiler.source>-->
-<!--        <maven.compiler.target>11</maven.compiler.target>-->
         <archetype.output.directory>stacks-api-example-simple</archetype.output.directory>
     </properties>
 
@@ -31,18 +28,18 @@
             </extension>
         </extensions>
 
-<!--        <pluginManagement>-->
-<!--            <plugins>-->
-<!--                <plugin>-->
-<!--                    <groupId>org.apache.maven.plugins</groupId>-->
-<!--                    <artifactId>maven-archetype-plugin</artifactId>-->
-<!--                    <version>3.2.0</version>-->
-<!--                    <configuration>-->
-<!--                        <outputDirectory>../../archetypes/${archetype.output.directory}</outputDirectory>-->
-<!--                    </configuration>-->
-<!--                </plugin>-->
-<!--            </plugins>-->
-<!--        </pluginManagement>-->
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.2.0</version>
+                    <configuration>
+                        <outputDirectory>../../archetypes/${archetype.output.directory}</outputDirectory>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
 </project>

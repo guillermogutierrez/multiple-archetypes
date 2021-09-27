@@ -18,11 +18,11 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <main.basedir>${pom.basedir}</main.basedir>
+<!--        <main.basedir>${pom.basedir}</main.basedir>-->
         <main.basedir>./</main.basedir>
         <source.basedir>${main.basedir}stacks</source.basedir>
         <build.basedir>${main.basedir}build</build.basedir>
-        <deploy.basedir>${main.basedir}build</deploy.basedir>
+        <deploy.basedir>${main.basedir}deploy</deploy.basedir>
         <apiTests.basedir>${main.basedir}tests/api-tests</apiTests.basedir>
         <apiTestKarate.basedir>${main.basedir}tests/api-tests-karate</apiTestKarate.basedir>
         <output.basedir>./</output.basedir>
