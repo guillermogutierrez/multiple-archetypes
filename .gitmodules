@@ -1,3 +1,6 @@
 [submodule "examples/stacks-api-cosmosdb"]
 	path = examples/stacks-api-cosmosdb
 	url = https://github.com/guillermogutierrez/stacks-api-cosmosdb.git
+[submodule "archetypes/stacks-api-archetype-cosmosdb"]
+	path = archetypes/stacks-api-archetype-cosmosdb
+	url = https://github.com/guillermogutierrez/stacks-api-archetype-cosmosdb.git
