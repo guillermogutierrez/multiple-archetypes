@@ -1,0 +1,3 @@
+[submodule "examples/stacks-api-cosmosdb"]
+	path = examples/stacks-api-cosmosdb
+	url = https://github.com/guillermogutierrez/stacks-api-cosmosdb.git
